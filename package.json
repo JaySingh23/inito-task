@@ -1,0 +1,25 @@
+{
+  "name": "inito-task",
+  "version": "1.0.0",
+  "description": "task for inito",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JaySingh23/inito-task.git"
+  },
+  "keywords": [
+    "inito"
+  ],
+  "author": "Jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaySingh23/inito-task/issues"
+  },
+  "homepage": "https://github.com/JaySingh23/inito-task#readme",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
