@@ -1,14 +1,15 @@
-// commandHandler.js
 class Commands {
   constructor(fileSystem) {
     this.fileSystem = fileSystem;
   }
 
+  // Method to execute a command based on the input string
   executeCommand(input) {
     const [command, ...args] = input.split(' ');
     return this.execute(command.toLowerCase(), ...args);
   }
 
+  // Method to execute a specific command based on the provided command and arguments
   execute(command, ...args) {
     switch (command) {
       case 'mkdir':
