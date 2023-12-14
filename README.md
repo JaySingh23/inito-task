@@ -3,21 +3,21 @@
 
 ### Overview
 
-This system doesn't have the functionality of loading the state after it has been saved. It can only save it in a json file. When you exit the file system it asks whether you want to save it or not. 
+This system doesn't have the functionality of loading the state after it has been saved. It can only save it in a json file. When you exit the file system it asks whether you want to save it or not. And also it doesn't have cp and mv functionality working as of yet.
 
 ## Features
 
 - **mkdir:** Create directories
 - **cd:** Change current directory
 - **ls:** List contents of the directory
-- **grep:** Search for a pattern in a file. ex - ```grep 'hello' file.txt```
+- **grep:** Search for a pattern in a file. ex - ```grep hello file.txt```
 - **cat:** Display the contents of a file
 - **touch:** Create or update a file
 - **echo:** Write text to a file. ex - ```echo 'hello world' > file.txt```
 - **mv:** Move or rename a file or directory. ex - ```mv dir1/file.txt .```
 - **cp:** Copy a file or directory. ex - ```cp dir1/file.txt .```
 - **rm:** Remove a file or directory
-- **Save State:** Save the current state of the file system. Save it in ```./saved_state.json``` when it asks for where you want to save it.
+- **Save State:** Save the current state of the file system. When you type 'exit', it asks for where do you want to save it? Save it in ```./saved_state.json``` You can also give any json filename and store there.
 
 ## Design Improvements
 
